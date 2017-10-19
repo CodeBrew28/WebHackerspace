@@ -1,11 +1,11 @@
 
-*** Flask: Using APIs ***
+#  Flask: Using APIs
 
-*** What is an API? *** 
+## What is an API? 
 API stands for Application Programming Interface which is a set of subroutine definitions, protocols, and tools for building application software. It defines communictaion between various software components. Commercial sites create API's to make their data availible for people to use. 
 
 
-*** How to get an API Key  ***
+## How to get an API Key 
 Certain apps require authentication to control the number of requests a user makes to ensure they don't get overloaded. 
 
 For example, for twitter you go to 
@@ -36,7 +36,7 @@ Inside of main, you can actually call twitter and get data using the API. The do
 With other apps such as Wikipedia though, there is no authentication. You can just import wikipedia, which is a python package that gives you access to the API. 
 
 
-***  Getting information from Twitter  ***
+## Getting information from Twitter 
 
 To get the information you can search by a query using 
 ```python
@@ -76,7 +76,7 @@ In the twitter example, yo ucan search by a query and get every related hashtag 
 ```
 
 
-***  Getting information from Wikipedia  ***
+## Getting information from Wikipedia 
 
 For wikipedia, you can use 
 
@@ -99,13 +99,13 @@ You can pick the first one by indexing and get the title and content.
 
 
 
-***  Putting everything together  ***
+##  Putting everything together 
 
 Put both the blob fetching data from wikipedia and the one for twitter into the main function and return hashtags + wiki_title +  wiki_information
 
-Run the server and make sure your flask app is working 
+Run the server and make sure your flask app is working. Then try the challenge on your own. 
 
-***  Challenge: Spotify  ***
+## Challenge: Spotify 
 
 Look up the documentation for spotify and figure out how to search song on spotify and return the first result. 
 
